@@ -1,0 +1,57 @@
+{
+    "name": "neoteched/aliyun-openapi",
+    "description": "autoload wrapper for aliyun-openapi",
+    "type": "library",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "TingSong-Syu",
+            "email": "xutingsong@neoteched.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "aliyun-php-sdk-core/Autoloader/Autoloader.php"
+        ],
+        "psr-4": {
+            "Green\\": "aliyun-php-sdk-green",
+            "Iot\\": "aliyun-php-sdk-iot",
+            "CCC\\": "aliyun-php-sdk-ccc",
+            "Ecs\\": "aliyun-php-sdk-ecs",
+            "Slb\\": "aliyun-php-sdk-slb",
+            "ARMS4FINANCE\\": "aliyun-php-sdk-arms4finance",
+            "Mts\\": "aliyun-php-sdk-mts",
+            "Domain_intl\\": "aliyun-php-sdk-domain-intl",
+            "Sas_api\\": "aliyun-php-sdk-sas-api",
+            "BatchCompute\\": "aliyun-php-sdk-batchcompute",
+            "NAS\\": "aliyun-php-sdk-nas",
+            "Chatbot\\": "aliyun-php-sdk-chatbot",
+            "Ons\\": "aliyun-php-sdk-ons",
+            "Ubsms\\": "aliyun-php-sdk-ubsms",
+            "CS\\": "aliyun-php-sdk-cs",
+            "Kms\\": "aliyun-php-sdk-kms",
+            "R_kvstore\\": "aliyun-php-sdk-r-kvstore",
+            "Dm\\": "aliyun-php-sdk-dm",
+            "Rds\\": "aliyun-php-sdk-rds",
+            "Push\\": "aliyun-php-sdk-push",
+            "Sts\\": "aliyun-php-sdk-sts",
+            "Ram\\": "aliyun-php-sdk-ram",
+            "Alidns\\": "aliyun-php-sdk-alidns",
+            "Domain\\": "aliyun-php-sdk-domain",
+            "live\\": "aliyun-php-sdk-live",
+            "Cloudauth\\": "aliyun-php-sdk-cloudauth",
+            "Vpc\\": "aliyun-php-sdk-vpc",
+            "Dds\\": "aliyun-php-sdk-dds",
+            "jaq\\": "aliyun-php-sdk-jaq",
+            "Market\\": "aliyun-php-sdk-market",
+            "Ess\\": "aliyun-php-sdk-ess",
+            "CSB\\": "aliyun-php-sdk-csb",
+            "ARMS\\": "aliyun-php-sdk-arms",
+            "Cdn\\": "aliyun-php-sdk-cdn",
+            "Cms\\": "aliyun-php-sdk-cms",
+            "CloudPhoto\\": "aliyun-php-sdk-cloudphoto",
+            "TeslaMaxCompute\\": "aliyun-php-sdk-teslamaxcompute",
+            "vod\\": "aliyun-php-sdk-vod"
+        }
+    }
+}
